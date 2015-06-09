@@ -1,0 +1,144 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css(.) styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/materialize/bin/materialize.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+    <!-- for nice urls -->
+    <!-- <base href="/"> -->
+  </head>
+  <body ng-app="aaaApp">
+    <!--[if lte IE 8]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!-- Navbar -->
+    <nav class="cyan lighten-2 navbar-fixed" role="navigation">
+      <div class="nav-wrapper container">
+        <div class="row">
+          <div>
+            <ul class="left hide-on-med-and-down">
+              <li><a href="#/home">Home</a>
+              <li><a href="#/about">About</a><li>
+              <li><a href="#/board">The Board</a></li>
+              <li><a href="#/events">Events</a></li>
+              <li><a href="#/fs">Fashion Show</a><li>
+              <li><a href="#/contact">Contact Us</a></li>
+              <li><a href="http://www.uiucapac.com/affiliates.html" target="new">Affiliates</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <ul id="nav-mobile" class="side-nav">
+          <li><a href="#/home">Home</a>
+          <li><a href="#/about">About</a><li>
+          <li><a href="#/board">The Board</a></li>
+          <li><a href="#/events">Events</a></li>
+          <li><a href="#/fs">Fashion Show</a><li>
+          <li><a href="#/contact">Contact Us</a></li>
+          <li><a href="http://www.uiucapac.com/affiliates.html" target="new">Affiliates</a></li>
+        </ul>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div ng-view=""></div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="row container">
+
+      <!-- Contact Us Column -->
+      <div class="col l3 m6 s12">
+        <h3>Contact Us</h3>
+        <ul>
+          <li><span style="color:#2ba6cb">Email: aaauiuc@gmail.com</span></li>
+          <li><span style="color:#2ba6cb">Illini Union 280<br>Office 256</span></li>
+          <li><a href="https://www.youtube.com/watch?v=Lf_eRgbhQ1M">Find Us!</a></li>
+        </ul>
+      </div>
+
+      <!-- Join Email List Column -->
+      <div class="col l3 m6 s12">
+        <h3>Join Our Email List!</h3>
+        <form action="//aaauiuc.us6.list-manage.com/subscribe/post?u=d867fc5c62ce793a3af012a4a&amp;id=e32367e809" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          <div class="row">
+            <div class="col l12">
+              <label>
+                <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" required placeholder="Enter Email Here"/>
+                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div style="position: absolute; left: -5000px;"><input type="text" name="b_d867fc5c62ce793a3af012a4a_e32367e809" tabindex="-1" value=""></div>
+              </label>
+            </div>
+            <input type="submit" value="Subscribe" name="subscribe" id="submit-button" class="btn">
+          </div>
+        </form>
+      </div>
+
+      <!-- Socialize Column -->
+      <div class="col l3 m6 s12">
+        <h3>Socialize</h3>
+        <a href="https://www.facebook.com/groups/2200258601/" target="new"><img src="images/footer_icons/fb.png"/></a>
+        <a href="https://twitter.com/AAA_UIUC" target="new"><img src="images/footer_icons/twitter.png"/></a>
+        <!-- <a href="http://aaa-uiuc.tumblr.com/" target="new"><img src="images/footer_icons/tumblr.png"/></a> -->
+        <a href="http://www.youtube.com/user/AAAUIUCYT/" target="new"><img src="images/footer_icons/youtube.png"/></a>
+        <a href="http://instagram.com/aaa_uiuc" target="new"><img src="images/footer_icons/instagram.png"/></a>
+      </div>
+
+      <!-- Navigation Column -->
+      <div class="col l3 m6 s12">
+        <h3>Navigation</h3>
+        <ul>
+          <li><a href="#/home">Home</a>
+          <li><a href="#/about">About</a><li>
+          <li><a href="#/board">The Board</a></li>
+          <li><a href="#/events">Events</a></li>
+          <li><a href="#/fs">Fashion Show</a><li>
+          <li><a href="#/contact">Contact Us</a></li>
+          <li><a href="http://www.uiucapac.com/affiliates.html" target="new">Affiliates</a></li>
+        </ul>
+      </div>
+
+      </div>
+    </footer>
+
+    <!-- Google Analytics -->
+     <script>
+       !function(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){
+       (A[l].q=A[l].q||[]).push(arguments)},A[l].l=+new Date,a=n.createElement(g),
+       r=n.getElementsByTagName(g)[0],a.src=u,r.parentNode.insertBefore(a,r)
+       }(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+       ga('create', 'UA-54138925-1', 'auto');
+       ga('send', 'pageview');
+    </script>
+
+    <!-- build:js(.) scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-touch/angular-touch.js"></script>
+    <script src="bower_components/materialize/bin/materialize.js"></script>
+    <script src="bower_components/skrollr/src/skrollr.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+        <!-- build:js({.tmp,app}) scripts/scripts.js -->
+        <script src="scripts/app.js"></script>
+        <script src="scripts/controllers/main.js"></script>
+        <!-- endbuild -->
+</body>
+</html>

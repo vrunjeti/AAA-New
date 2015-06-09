@@ -1,0 +1,74 @@
+<section>
+  <h2>Fashion Show</h2>
+  <h4>{{ main.fs.main_description }}</h4>
+  <div class="row">
+    <div class="col m6 s12">
+      <img src="">
+      <a href="mailto:fs.headcoord@gmail.com" target="new">
+        <h6>{{ main.fs.fs_email }}</h6>
+      </a>
+    </div>
+    <div class="col m6 s12">
+      <img src="">
+      <a href="{{main.fs.fs_facebook_group}}" target="new">
+        <h6>Join Our Facebook Group!</h6>
+      </a>
+    </div>
+  </div>
+  <div class="row">
+    <h4>Head Coords:</h4>
+    <div class="col m4 s12 offset-m2 panel">
+      <img ng-src="{{main.fs.head_coords[0].picture}}">
+      <h6>{{ main.fs.head_coords[0].name }}</h6>
+      <h6>{{ main.fs.head_coords[0].email }}</h6>
+    </div>
+    <div class="col m4 s12 panel">
+      <img ng-src="{{main.fs.head_coords[1].picture}}">
+      <h6>{{ main.fs.head_coords[1].name }}</h6>
+      <h6>{{ main.fs.head_coords[1].email }}</h6>
+    </div>
+  </div>
+  <div class="row">
+    <h4>Fashion Show Interns:</h4>
+    <div class="col m4 s12 offset-m2 panel">
+      <img ng-src="{{main.fs.interns[0].picture}}">
+      <h6>{{ main.fs.interns[0].name }}</h6>
+      <h6>{{ main.fs.interns[0].email }}</h6>
+    </div>
+    <div class="col m4 s12 panel">
+      <img ng-src="{{main.fs.interns[1].picture}}">
+      <h6>{{ main.fs.interns[1].name }}</h6>
+      <h6>{{ main.fs.interns[1].email }}</h6>
+    </div>
+  </div>
+</section>
+
+<section ng-repeat="scene in main.fs.scenes">
+  <img ng-src="{{scene.image}}">
+  <section>
+    <h2>{{ scene.name }}</h2>
+    <h4>{{ scene.description }}</h4>
+    <div class="row">
+      <div class="col m6 s12">
+        <img src="">
+        <a href="{{scene.email}}" target="new">
+          <h6>{{ scene.email }}</h6>
+        </a>
+      </div>
+      <div class="col m6 s12">
+        <img src="">
+        <a href="{{scene.facebook_group}}" target="new">
+          <h6>Join Our Facebook Group!</h6>
+        </a>
+      </div>
+    </div>
+    <h4>Scene Coordinators:</h4>
+    <div class="row">
+      <div ng-repeat="coord in scene.coords" class="col m4 s12 panel">
+        <img ng-src="{{coord.picture}}">
+        <h6>{{ coord.name }}</h6>
+        <h6>{{ coord.email }}</h6>
+      </div>
+    </div>
+  </section>
+</section>

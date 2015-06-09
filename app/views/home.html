@@ -1,0 +1,47 @@
+<h2>Upcoming Events</h2>
+<!-- <div ng-repeat="event in main.events" ng-if="event.upcoming">
+  <div class="col s12 m6">
+    <a href="{{event.link}}">
+      <div class="card blue-grey lighten-5">
+        <div class="card-content white-text">
+          <span class="card-title">
+            <h4>{{ event.date }} - {{ event.name }}</h4>
+            <h4 ng-class="main.hasForm(event) ? '' : 'hide' "><a href="{{event.form}}"> - Sign Up!</a></h4>
+          </span>
+          <img ng-src="{{event.image}}">
+        </div>
+      </div>
+    </a>
+  </div>
+</div> -->
+
+<!-- <div class="row">
+  <div ng-repeat="event in main.events" ng-if="event.upcoming">
+    <div class="col s12 m6">
+      <a href="{{event.link}}">
+        <div class="panel">
+          <h4>{{ event.date }} - {{ event.name }}</h4>
+          <h4 ng-class="main.hasForm(event) ? '' : 'hide' "><a href="{{event.form}}"> - Sign Up!</a></h4>
+          <img ng-src="{{event.image}}">
+        </div>
+      </a>
+    </div>
+  </div>
+</div> -->
+
+<div class="row">
+  <div ng-repeat="event in main.events" ng-if="event.upcoming">
+    <div class="col s12 m6">
+      <div class="panel">
+        <h4>{{ event.date }} - {{ event.name }}</h4>
+        <div ng-class="main.hasForm(event) ? '' : 'hide' ">
+          <h4> - <a href="{{event.form}}">Sign Up!</a></h4>
+        </div>
+        <!-- <h4 ng-class="main.hasForm(event) ? '' : 'hide' "><a href="{{event.form}}"> - Sign Up!</a></h4> -->
+        <a href="{{event.link}}">
+          <img class="responsive-img" ng-src="{{event.image}}">
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

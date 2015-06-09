@@ -1,0 +1,102 @@
+<section>
+  <h2>Executive Board</h2>
+  <div class="row">
+    <div class="col m4 s12">
+
+    </div>
+  </div>
+</section>
+
+<!-- <section>
+  <h2>Officer Board</h2>
+  <div ng-repeat="p in main.board.officers">
+    <div class="row">
+      <div class="col m4 s12">
+        <div class="card">
+          <div class="card-content">
+            <span class="card-title">{{ p.position }}</span>
+            <p>{{ p.description }}</p>
+          </div>
+        </div>
+      </div>
+      <div class="col m4 s12">
+        <div class="card">
+          <div class="card-content">
+            <img ng-src="{{p.picture1}}">
+            <span class="card-title">{{ p.name1 }}</span>
+            <p>{{ p.email1 }}</p>
+          </div>
+        </div>
+      </div>
+      <div class="col m4 s12">
+        <div class="card">
+          <div class="card-content">
+            <img ng-src="{{p.picture2}}">
+            <span class="card-title">{{ p.name2 }}</span>
+            <p>{{ p.email2 }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section ng-if="main.board.display_shadows">
+  <h2>Shadows</h2>
+  <div class="row">
+    <div ng-repeat="s in main.board.shadows">
+      <div class="col m4 s12">
+        <div class="card">
+          <div class="card-content">
+            <img ng-src="{{s.picture}}">
+            <span class="card-title">{{ s.name }}</span>
+            <p>{{ s.email }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+<section>
+  <h2>Officer Board</h2>
+  <div ng-repeat="p in main.board.officers">
+    <div class="row">
+      <div class="col m4 s12">
+        <div class="panel">
+          <h4>{{ p.position }}</h4>
+          <p>{{ p.description }}</p>
+        </div>
+      </div>
+      <div class="col m4 s12">
+        <div class="panel">
+          <img ng-src="{{p.picture1}}">
+          <h4>{{ p.name1 }}</h4>
+          <p>{{ p.email1 }}</p>
+        </div>
+      </div>
+      <div class="col m4 s12">
+        <div class="panel">
+          <img ng-src="{{p.picture2}}">
+          <h4>{{ p.name2 }}</h4>
+          <p>{{ p.email2 }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section ng-if="main.board.display_shadows">
+  <h2>Shadows</h2>
+  <div class="row">
+    <div ng-repeat="s in main.board.shadows">
+      <div class="col m4 s12">
+        <div class="panel">
+          <img ng-src="{{s.picture}}">
+          <h4>{{ s.name }}</h4>
+          <p>{{ s.email }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
