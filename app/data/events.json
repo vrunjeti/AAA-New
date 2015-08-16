@@ -5,7 +5,7 @@
     "image":"./images/events/faaamily_movie_night.png",
     "link":"https://www.facebook.com/events/880835881962830",
     "form":"",
-    "upcoming":true
+    "upcoming":false
   },
   {
     "name":"Asian American MediAAA Series Part 1: A Leading Man Ft. Steven Kung",
@@ -13,7 +13,7 @@
     "image":"./images/events/leading_man.png",
     "link":"https://www.facebook.com/events/359032917640874/",
     "form":"",
-    "upcoming":true
+    "upcoming":false
   },
   {
     "name":"29th AAA Fashion Show Viewing (Co-sponsored by AASHO)",
@@ -21,7 +21,7 @@
     "image":"./images/events/fs_viewing.png",
     "link":"https://www.facebook.com/events/1707040336189800/",
     "form":"",
-    "upcoming":true
+    "upcoming":false
   },
   {
     "name":"Midnight Breakfast and Study Night",
@@ -38,5 +38,15 @@
     "link":"https://www.facebook.com/events/705186562883523/",
     "form":"https://docs.google.com/forms/d/17vQPVk6WicMYstPcGX9tqeV3v89wDdMfA_knIZsoPVY/viewform",
     "upcoming":false
+  },
+  {
+    "name":"AAA Barbecue",
+    "date":"8/29",
+    "image":"./images/events/AAA BBQ.png",
+    "link":"https://www.facebook.com/events/958693994192661/",
+    "form":"",
+    "upcoming":true
   }
+  
+
 ]
