@@ -1,52 +1,19 @@
 [
   {
-    "name":"FAAAMily Movie Night",
-    "date":"4/6",
-    "image":"./images/events/faaamily_movie_night.png",
-    "link":"https://www.facebook.com/events/880835881962830",
-    "form":"",
-    "upcoming":false
-  },
-  {
-    "name":"Asian American MediAAA Series Part 1: A Leading Man Ft. Steven Kung",
-    "date":"4/8",
-    "image":"./images/events/leading_man.png",
-    "link":"https://www.facebook.com/events/359032917640874/",
-    "form":"",
-    "upcoming":false
-  },
-  {
-    "name":"29th AAA Fashion Show Viewing (Co-sponsored by AASHO)",
-    "date":"4/9",
-    "image":"./images/events/fs_viewing.png",
-    "link":"https://www.facebook.com/events/1707040336189800/",
-    "form":"",
-    "upcoming":false
-  },
-  {
-    "name":"Midnight Breakfast and Study Night",
-    "date":"12/10",
-    "image":"./images/events/studybreakfast.jpg",
-    "link":"https://www.facebook.com/events/949379535091615/",
-    "form":"",
-    "upcoming":false
-  },
-  {
-    "name":"Meet for Tea",
-    "date":"10/16",
-    "image":"./images/events/meet_for_tea.png",
-    "link":"https://www.facebook.com/events/705186562883523/",
-    "form":"https://docs.google.com/forms/d/17vQPVk6WicMYstPcGX9tqeV3v89wDdMfA_knIZsoPVY/viewform",
-    "upcoming":false
-  },
-  {
     "name":"AAA Barbecue",
-    "date":"8/29",
+    "date":"August 29th",
     "image":"./images/events/AAA BBQ.png",
     "link":"https://www.facebook.com/events/958693994192661/",
     "form":"",
     "upcoming":true
+  },
+  {
+    "name":"First General Meeting",
+    "date":"September 1st",
+    "image":"./images/events/firstgen.jpg",
+    "link":"https://www.facebook.com/events/1702802756614238/",
+    "form":"",
+    "upcoming":true
   }
-  
 
 ]
