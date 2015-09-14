@@ -29,7 +29,7 @@
   "scenes":[
     {
       "name":"Bizcaz Scene",
-      "image":"",
+      "image":"./images/fs/broadway.jpg",
       "description":"Business Casual Scene is a bit different than the other scenes. Our scene isn't really tied to or associated with any specific genre of dance, but it is mostly filled with the upbeat fun hip-hop feels.",
       "email":"",
       "facebook_group":"https://www.facebook.com/groups/809290179188162/",
@@ -53,8 +53,8 @@
     },
     {
       "name":"Cultural Scene",
-      "image":"",
-      "description":"",
+      "image":"./images/fs/cultural.jpg",
+      "description":"Get in touch with your cultural side in this diverse scene. Interested in learning dances from all over Asia, then look no further! Here you will immerse yourself in something different and, in the process, appreciate the different methods of expression these cultures have. Make new friends and learn something new together!",
       "email":"",
       "facebook_group":"https://www.facebook.com/groups/cultural16/",
       "coords":[
@@ -77,7 +77,7 @@
     },
     {
       "name":"Formal Scene",
-      "image":"",
+      "image":"./images/fs/formal.jpg",
       "description":"",
       "email":"",
       "facebook_group":"https://www.facebook.com/groups/170686929932124/",
@@ -101,7 +101,7 @@
     },
     {
       "name":"Modern Scene",
-      "image":"",
+      "image":"./images/fs/modern.jpg",
       "description":"",
       "email":"",
       "facebook_group":"https://www.facebook.com/groups/515097631992840/",
@@ -125,7 +125,7 @@
     },
     {
       "name":"Nightlife Scene",
-      "image":"",
+      "image":"./images/fs/nightlife.jpg",
       "description":"",
       "email":"",
       "facebook_group":"https://www.facebook.com/groups/1639364636280870/",
